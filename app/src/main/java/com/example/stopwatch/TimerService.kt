@@ -27,7 +27,9 @@ class TimerService : Service(
             .setContentTitle("just work")
             .setContentText("This is a Timer 00:04:00")
             .build()
-        startForeground( 1,notification)
+        // here we need to specify the type of the foreground serviece
+        TODO()
+        // startForeground( 1,notification)
     }
 
     enum class Action {
